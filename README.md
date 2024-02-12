@@ -40,4 +40,4 @@ For details, check out the [demo.ipynb]
 
 ## License
 
-MIT License (see [LICENSE.md](LICENSE.md)).
+MIT License (see [LICENSE.md](https://github.com/renyixin666/HSIC-LK/blob/main/LICENSE)).

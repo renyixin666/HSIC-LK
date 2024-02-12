@@ -19,18 +19,32 @@ For details, check out the [demo.ipynb]
 
 **HSIC with Fixed Kernels.** We provide the naive implementation for HSIC with fixed kernels. Gaussian kernels as well as Laplace kernels are implemented, and for more choices of kernels, a simple modification of the code can be attempted. 
 
+- IndpTest_naive: the naive implementation for HSIC with fixed kernels.
+To use, we can import by the following.
+```python
+from Test.hsic_naive import IndpTest_naive
+```
+
 **Learnable Kernels.** We provide options for learnable kernels. 
 
-```python
-# import modules
+- IndpTest_LKGaussian: the HSIC with Gaussian kernels (learnable widths).
+- IndpTest_LKLaplace: the HSIC with Laplace kernels (learnable widths).
+- IndpTest_LKWeightGaussian: the HSIC with importance-weighted Gaussian kernels.
+- IndpTest_LKWeightLaplace: the HSIC with importance-weighted Laplace kernels.
+- IndpTest_KSelect: the HSIC for kernel selection scenario.
 
+To use, we can import them by the following.
+```python
+from Test.hsic_lkgau import IndpTest_LKGaussian
+from Test.hsic_lklap import IndpTest_LKLaplace
+from Test.hsic_lkwgau import IndpTest_LKWeightGaussian
+from Test.hsic_lkwlap import IndpTest_LKWeightLaplace
+from Test.hsic_kselect import IndpTest_KSelect
 ```
+
 ## Examples.
 
-```python
-# import modules
-
-```
+We provide a demo notebook in [demo.ipynb](https://github.com/renyixin666/HSIC-LK/edit/main/demo.ipynb).
 
 ## Bibtex
 

@@ -15,7 +15,7 @@ The requirements for the packages are:
 ## HSIC with learnable kernels
 
 **Statistical Independence Test.** Given the tensor $X$ of shape $(n, d_x)$ and $Y$ of shape $(n, d_y)$, our test returns $0$ if the samples $X$ and $Y$ are independence, and $1$ otherwise.
-For details, check out the [demo.ipynb]
+For details, check out the [demo.ipynb](https://github.com/renyixin666/HSIC-LK/edit/main/demo.ipynb)
 
 **HSIC with Fixed Kernels.** We provide the naive implementation for HSIC with fixed kernels. Gaussian kernels as well as Laplace kernels are implemented, and for more choices of kernels, a simple modification of the code can be attempted. 
 

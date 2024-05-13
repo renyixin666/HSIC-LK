@@ -49,7 +49,14 @@ We provide a demo notebook in [demo.ipynb](./demo.ipynb).
 ## Bibtex
 
 ```
-
+@inproceedings{ren2024learning,
+  title={Learning Adaptive Kernels for Statistical Independence Tests},
+  author={Ren, Yixin and Xia, Yewei and Zhang, Hao and Guan, Jihong and Zhou, Shuigeng},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={2494--2502},
+  year={2024},
+  organization={PMLR}
+}
 ```
 
 ## License

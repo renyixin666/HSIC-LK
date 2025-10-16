@@ -1,3 +1,13 @@
+# Figure 1 Reproduction.
+
+To reproduce Figure 1 from the paper, please refer to [code_for_figure1.ipynb](./code_for_figure1.ipynb).
+
+The reproduced results are shown below:
+
+<p align="center"> <img src="./figure1_reproduction.png" alt="Reproduction of Figure 1" width="70%"> </p>
+
+Figure 1. Reproduction result corresponding to Figure 1 in the paper. The result highlights the impact of the threshold on practical optimization performance.
+
 # HSIC-LK package
 This package implements the HSIC with learnable kernels for statistical independence tests, as proposed in our paper AISTATS 2024. 
 
@@ -45,16 +55,6 @@ from Test.hsic_kselect import IndpTest_KSelect
 ## Examples.
 
 We provide a demo notebook in [demo.ipynb](./demo.ipynb).
-
-## Figure 1 Reproduction.
-
-To reproduce Figure 1 from the paper, please refer to [code_for_figure1.ipynb](./code_for_figure1.ipynb).
-
-The reproduced results are shown below:
-
-<p align="center"> <img src="./figure1_reproduction.png" alt="Reproduction of Figure 1" width="70%"> </p>
-
-Figure 1. Reproduction result corresponding to Figure 1 in the paper. The result highlights the impact of the threshold on practical optimization performance.
 
 ## Bibtex
 

@@ -54,8 +54,7 @@ The reproduced results are shown below:
 
 <p align="center"> <img src="./figure1_reproduction.png" alt="Reproduction of Figure 1" width="70%"> </p>
 
-Figure 1. Reproduction result corresponding to Figure 1 in the paper.
-The figure demonstrates the empirical performance of the proposed independence tests under different settings.
+Figure 1. Reproduction result corresponding to Figure 1 in the paper. The result highlights the impact of the threshold on practical optimization performance.
 
 ## Bibtex
 
